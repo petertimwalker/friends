@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
+ruby '2.7.4'
+
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.4'
+
 
 gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
 gem 'bundler', '~> 2.3'
